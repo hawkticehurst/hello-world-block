@@ -43,3 +43,29 @@ MIT
 
 ✌️ ❤️
 _GitHub Next_
+
+
+## Test
+
+<BlockComponent
+	block={{
+		"type": "file",
+		"id": "file-block",
+		"title": "Example File Block",
+		"description": "A basic file block",
+		"sandbox": true,
+		"entry": "blocks/example-file-block/index.tsx",
+		"matches": ["*.md"],
+		"example_path": "https://github.com/hawkticehurst/hello-world-block/blob/main/examples/some.txt",
+		"owner": "hawkticehurst",
+		"repo": "hello-world-block",
+	}}
+	context={{
+		"repo": "hello-world-block",
+		"owner": "hawkticehurst",
+		"path": "examples/some.txt",
+		"sha": "main",
+		"file": "README.md"
+	}}
+	height={438}
+/>
